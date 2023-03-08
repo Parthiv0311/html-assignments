@@ -1,0 +1,153 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* Navigation bar css */
+
+.navbar{
+	position: relative;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 4rem;
+    background-color: #121618;
+}
+    
+.navbar-brand {
+    display: flex;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    font-size: 1.25rem;
+    white-space: nowrap;
+}
+.navbar-brand img {
+	width: 45px;
+    height: 70px;
+}
+.navbar-brand span {
+    padding-top: 15px;
+    padding-left: 3px;
+    font-size: 18px;
+    color: #fac564;
+}
+
+.navbar-nav {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(255,255,255,.7);
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/*styling for class hero*/
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+.hero img {
+    height: 33.5rem;
+    width: 100%;
+}
+.hero .content {
+    position: absolute;
+    top: 12rem;
+    right: 2rem;
+    color: #fab464;
+}
+.hero .content h1 {
+    padding-bottom: 0px;
+    font-size: 1.75rem;
+}
+.hero .content h2 {
+    font-size: 1.45rem;
+    padding-bottom: 12px;
+}
+
+.line {
+    font-size: 2rem;
+    text-align: center;
+} .line h2 {
+    padding: 2.5rem 1.5rem;
+}
+
+/* Order Information's styling */
+
+.order-info {
+    background-image: url('https://media.istockphoto.com/id/830607138/vector/pizza-light-grunge-cartoon-illustration-with-spotted-halftones-orange-background-italian.jpg?s=612x612&w=0&k=20&c=EH3YlcMi40R3FN7e8APQijFIYAIq6AB2axuG7ZGiGeA=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1.5rem 2.5rem;
+    margin-top: -4px;
+}
+.order-info h2 {
+    font-size: 1.45rem;
+    color: #fa6491;
+}
+.order-info h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+    color: #8e19d1;
+}
+
+.pizza-size {
+    padding: 1rem 0rem;
+}
+.crust {
+    padding: 1rem 0rem;
+}
+.crust select {
+    padding: 0.5rem 16rem 0.5rem 1rem;
+}
+.toppings {
+    padding: 1rem 0rem;
+}
+.delivery-info {
+    padding: 1rem 0rem;
+}
+.delivery-options {
+    padding: 1rem 0rem;
+}
+.payment-info {
+    padding: 1rem 0rem;
+}
+
+.button {
+    padding: 12px 30px;
+    background-color: #fa7064;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+/*styling footer here */
+
+.footer {
+    color: #fa8c64;
+    background-color: #121618;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 1.5rem;
+}
+
+.footer section a {
+    color: #fa8c64;
+    text-decoration: underline;
+}

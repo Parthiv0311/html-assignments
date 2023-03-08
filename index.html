@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--metadata-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Delicious | Select And Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!--navigation bar and logo-->
+        <nav class="navbar">
+            <a class="navbar-brand" href="#">
+                <img src="images/1.png" alt="logo">
+                <span>Pizza Delicious</span>
+            </a>
+
+            <!--menu button with randomly attached linkes-->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Home</a>
+                </li><!--elon's twitter is my home :)-->
+                <li class="nav-item">
+                    <a class="nav-link" href="https://ca.indeed.com/?vjk=955e4b7903971dd0&advn=8790771856614534">SpecialOffers</a>
+                </li><!--use indeed be happy-->
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.w3schools.com/">NearbyStores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.brooklyncraftpizza.com/pizza-sizes/how-many-inches-is-a-large-pizza/">PizzaSizeGuide</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--introductory image and text-->
+    <section class="hero">
+        <img src="images/3.jpeg">
+        <aside class="content">
+            <h1>Pizza Delicious</h1>
+            <h2>We cooked your desired Pizza Recipe</h2>
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+        </aside>
+    </section>
+    <!--greeting line-->
+    <section class="line">
+        <h2>Your Pizza, Your Choice! Order Now And Enjoy Your Favourite Pizza</h2>
+    </section>
+    <!--order and delivery form part begins here-->
+   <section class="order-info">
+        <h1>Order Here</h1>
+        <form action="#" method="post">
+            <!--radio selection for pizza size-->
+            <h2>Pizza Size</h2>
+            <figure class="pizza-size">
+                <label>
+                    <input type="radio" name="size" value="small" > Small ($10.99)
+                </label>
+                <label>
+                    <input type="radio" name="size" value="medium"> Medium ($13.99)
+                </label>
+                <label>
+                    <input type="radio" name="size" value="large"> Large ($16.99)
+                </label>
+            </figure>
+            <!--dropdown menu here-->
+            <h2>Crust</h2>
+            <figure class="crust">
+                <label for="crust"></label>
+                <select id="crust" name="crust" required>
+                  <option value="">Select Crust</option>
+                  <option value="thin">Thin Crust</option>
+                  <option value="thick">Thick Crust</option>
+                  <option value="stuffed">Stuffed Crust</option>
+                </select>
+            </figure>
+            <!--chechbox for topping selection-->
+            <h2>Toppings</h2>
+            <figure class="toppings">
+                <label>
+                    <input type="checkbox" name="toppings[]" value="pepperoni"> Pepperoni ($1.99)
+                </label>
+                <label>
+                    <input type="checkbox" name="toppings[]" value="sausage"> Sausage ($1.99)
+                </label>
+                <label>
+                    <input type="checkbox" name="toppings[]" value="mushrooms"> Mushrooms ($0.99)
+                </label>
+                <label>
+                    <input type="checkbox" name="toppings[]" value="olives"> Olives ($0.99)
+                </label>
+                <label>
+                    <input type="checkbox" name="toppings[]" value="onions"> Onions ($0.99)
+                </label>
+            </figure>
+            <!--delivery info input-->
+            <h2>Delivery Information</h2>
+            <figure class="delivery-info">
+                <label>
+                    Name: <input type="text" name="name" required>
+                </label>
+                <label>
+                    Phone Number: <input type="tel" name="phone" required>
+                </label>
+                <label>
+                    Address: <input type="text" name="address" required>
+                </label>
+            </figure>
+            <!--radio for desired delivery option-->
+            <h2>Delivery Options</h2>
+            <figure class="delivery-options">
+                <input type="radio" id="delivery" name="delivery" value="delivery" >
+                <label for="delivery">Delivery</label><br>
+
+                <input type="radio" id="pickup" name="delivery" value="pickup">
+                <label for="pickup">Pickup</label><br>
+
+                <label for="delivery-time">Delivery Time:</label>
+                <input type="datetime-local" id="delivery-time" name="delivery-time">
+            </figure>
+             <!--input for number,date-->
+            <h2>Payment Information</h2>
+            <figure class="payment-info">
+                <label>
+                    Credit Card Number: <input type="text" name="cc_number" required>
+                </label>
+                <label>
+                    Expiration Date: <input type="month" name="expiration" required>
+                </label>
+                <label>
+                    CVV: <input type="text" name="cvv" required>
+                </label>
+            </figure>
+            <br>
+            <br>
+            <!--button-->
+            <input type="submit" value="Place Order" class="button">
+        </form>
+    </section>
+     <!--unnecessary comment-->
+    <footer class="footer">
+        <p>Copyright ©2023 All rights reserved | Pizza Delecious Team</p>
+        <section>
+            <a href="https://www.cbr.com/reasons-one-piece-is-best-anime/">Terms And Conditions</a>
+            <a href="https://www.cbr.com/reasons-one-piece-is-best-anime/">Join us</a>
+            <a href="https://www.cbr.com/reasons-one-piece-is-best-anime/">Privacy Policy</a>
+            <a href="https://www.cbr.com/reasons-one-piece-is-best-anime/">Social Media</a>
+        </section>
+    </footer>
+</body>
+
+</html>
+
+</html>
