@@ -1,0 +1,99 @@
+#header{
+    padding: 10px;
+    background-color: #125784;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dell img{
+    width: 60px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+h1, h2, h3, h4 {
+    font-family: 'Montesrrat', sans-serif;
+}
+
+h1{
+   margin-left: 500px;
+   margin-top:200px ;
+}
+
+.hp li{
+    padding: 0 5px;
+    color: #fff;
+    list-style: none;
+    display: flex;
+}
+#asus {
+    height: 445px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2em;
+    filter: grayscale(50%);
+    background: url("../resources/img1.jpg") 0% 0% / 100% 100%;
+}
+.logi{
+ background-color: rgba(0,0,0,0.5);
+ height: 445px;
+ width: 1477px;
+ align-items: center;
+ justify-content: center;
+}
+.apple{
+    display: flex;
+    background-color: #f57f17;
+    padding: 0px;
+}
+.apple h2{
+    padding: 5px;
+}
+.apple div:nth-child(2){
+    height: 200px;
+    width: 150px;
+}
+.pic{
+    height: 200px;
+    width: 103%;
+}
+.bmw{
+    display: flex;
+}
+.bmw img{
+    width: 490px;
+    height: 300px;
+}
+.mi{
+    display: flex;
+    color: #fff;
+    padding: 0px;
+    background-color: #5e35b1;
+    justify-content: center;
+}
+.kia{
+    flex-basis: 30px;
+}
+.nme{
+    margin: 10px;
+    width: 450px;
+}
+.gt{
+    width: 170px;
+    height: 25px;
+}
+#footer{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.field img{
+    width: 80px;
+    margin: 10px;
+}
